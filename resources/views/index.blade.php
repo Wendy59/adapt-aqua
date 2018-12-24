@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Regna Bootstrap Template</title>
+  <title>Adapt' Aqua</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/favicon.jpg" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -24,12 +24,6 @@
   <!-- Main Stylesheet File -->
   <link href="css/regna/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: Regna
-    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body>
@@ -41,9 +35,9 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <!--<a href="#hero"><img src="img/logo/logo3.jpg" alt="" title="" /></img></a>-->
         <!-- Uncomment below if you prefer to use a text logo -->
-        <!--<h1><a href="#hero">Regna</a></h1>-->
+        <h1><a href="#hero">Adapt' Aqua</a></h1>
       </div>
 
       <nav id="nav-menu-container">
@@ -81,8 +75,8 @@
   ============================-->
   <section id="hero">
     <div class="hero-container">
-      <h1>Welcome to Regna</h1>
-      <h2>We are team of talanted designers making websites with Bootstrap</h2>
+      <h1>Adapt' Aqua</h1>
+      <h2>Centre aquatique adapté et bien-être</h2>
       <a href="#about" class="btn-get-started">Get Started</a>
     </div>
   </section><!-- #hero -->
@@ -549,9 +543,9 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+        &copy; Copyright <strong>Adapt' Aqua</strong>. All Rights Reserved
       </div>
-      <div class="credits">
+      <div class="credits" style='display:none;'>
         <!--
           All the links in the footer should remain intact.
           You can delete the links only if you purchased the pro version.
