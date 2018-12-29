@@ -114,6 +114,8 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  top: 0;
+  position: absolute;
 }
 
 @media (max-width: 768px) {
@@ -126,9 +128,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: #2f3a40;
   padding: 20px 0;
-  height: 72px;
+  height: 86px;
   transition: all 0.5s;
 }
 
@@ -178,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #fff;
+  color: #45A89E;
 }
 
 @media (max-width: 768px) {
@@ -189,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #eee;
+  color: #F5A9A9;
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -213,13 +215,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #45A89E;
+  color: #45A89E;
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  border: 2px solid #F5A9A9;
+  color: #F5A9A9;
 }
 
 /*--------------------------------------------------------------
@@ -284,7 +286,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Meu Container */
 #nav-menu-container {
   float: right;
-  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -298,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #45A89E;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -317,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #2dc997;
+  background-color: #F5A9A9;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -346,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #333;
+  color: #45A89E;
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -354,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li a:hover {
-  background: #2dc997;
+  background: #F5A9A9;
   color: #fff;
 }
 

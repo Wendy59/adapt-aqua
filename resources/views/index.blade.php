@@ -35,37 +35,13 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <!--<a href="#hero"><img src="img/logo/logo3.jpg" alt="" title="" /></img></a>-->
+        <a href="#hero"><img src="img/logo/logo3_index.jpg" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
-        <h1><a href="#hero">Adapt' Aqua</a></h1>
+        <!--<h1><a href="#hero">Adapt' Aqua</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
+        @include('menu')
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
@@ -77,7 +53,7 @@
     <div class="hero-container">
       <h1>Adapt' Aqua</h1>
       <h2>Centre aquatique adapté et bien-être</h2>
-      <a href="#about" class="btn-get-started">Get Started</a>
+      <a href="#about" class="btn-get-started">C'est parti !</a>
     </div>
   </section><!-- #hero -->
 
