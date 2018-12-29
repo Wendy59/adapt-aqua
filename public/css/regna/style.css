@@ -503,7 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(../../img/about-img.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
@@ -548,11 +548,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 2px solid #45A89E;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: #45A89E;
   font-size: 24px;
 }
 
