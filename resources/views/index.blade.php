@@ -1,61 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Adapt' Aqua</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+@include('layouts.base')
 
-  <!-- Favicons -->
-  <link href="img/favicon.jpg" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+@include('layouts.header')
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/regna/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!--==========================
-  Header
-  ============================-->
-  <header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo/logo3_index.jpg" alt="" title="" /></img></a>
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!--<h1><a href="#hero">Adapt' Aqua</a></h1>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        @include('menu')
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
-    Hero Section
-  ============================-->
-  <section id="hero">
-    <div class="hero-container">
-      <h1>Adapt' Aqua</h1>
-      <h2>Centre aquatique adapté et bien-être</h2>
-      <a href="#about" class="btn-get-started">C'est parti !</a>
-    </div>
-  </section><!-- #hero -->
+@include('accueil')
 
   <main id="main">
 
