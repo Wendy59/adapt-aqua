@@ -5,6 +5,5 @@
     <li><a href="#services">Prestations</a></li>
     <li><a href="#">Tarifs</a></li>
     <li><a href="#">Horaires / Réservation</a></li>
-    <li><a href="#team">L'équipe</a></li>
     <li><a href="#contact">Contactez-nous !</a></li>
 </ul>

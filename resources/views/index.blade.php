@@ -27,8 +27,6 @@
 
       </div>
     </section><!-- #call-to-action -->
-
-    @include('team')
     
     @include('contact')
   </main>
