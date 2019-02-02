@@ -195,7 +195,7 @@
       <div class="copyright">
         &copy; Copyright <strong>Adapt' Aqua</strong>. All Rights Reserved
       </div>
-      <div class="credits" style='display:none;'>
+      <div class="credits">
         <!--
           All the links in the footer should remain intact.
           You can delete the links only if you purchased the pro version.
