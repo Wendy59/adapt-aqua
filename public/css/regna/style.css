@@ -637,10 +637,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
+  color: #111;
 }
 
-#services .title a {
-  color: #111;
+div.img-center {
+    text-align: center !important;
 }
 
 #services .description {
