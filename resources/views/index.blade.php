@@ -65,6 +65,10 @@
     <!-- Moment JS -->
     <script src="js/moment/moment.js"></script>
     
+    <!-- Libraire FullCalendar -->
+    <link rel='stylesheet' href='css/fullcalendar/fullcalendar.css' />
+    <script src="js/fullcalendar/fullcalendar.js"></script>
+    <script src="js/fullcalendar/fr.js"></script>
   
     <!-- Personal script -->
     <script type="text/javascript">
