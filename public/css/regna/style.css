@@ -944,3 +944,12 @@ div.img-center {
   font-size: 13px;
   color: #ccc;
 }
+
+
+/*--------------------------------------------------------------
+# Fullcalendar personalized
+--------------------------------------------------------------*/
+div#btn_calendar {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
