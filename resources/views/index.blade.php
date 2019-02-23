@@ -61,6 +61,10 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/regna/main.js"></script>
+    
+    <!-- Moment JS -->
+    <script src="js/moment/moment.js"></script>
+    
   
     <!-- Personal script -->
     <script type="text/javascript">
