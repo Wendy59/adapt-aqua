@@ -7,6 +7,9 @@
 
 require('./bootstrap');
 
+import $ from 'jquery';
+import 'fullcalendar';
+
 window.Vue = require('vue');
 
 /**
@@ -31,3 +34,4 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app'
 });
+
