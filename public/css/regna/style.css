@@ -953,3 +953,76 @@ div#btn_calendar {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
+
+/* Pricing Section
+--------------------------------*/
+#tarifs {
+  padding: 60px 0 60px 0;
+  overflow: hidden;
+}
+
+#tarifs .box {
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  text-align: center;
+  position: relative;
+}
+
+#tarifs h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+#tarifs h4 {
+  font-size: 46px;
+  color: #45a89e;
+  font-weight: 300;
+}
+
+#tarifs h4 sup {
+  font-size: 20px;
+  top: -20px;
+}
+
+#tarifs h4 span {
+  color: #45a89e;
+  font-size: 20px;
+}
+
+#tarifs ul {
+  padding: 0;
+  list-style: none;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
+
+#tarifs ul li {
+  padding-bottom: 12px;
+}
+
+#tarifs ul i {
+  color: #45a89e;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+
+#tarifs .featured {
+  border: 2px solid #45a89e;
+  height: 325px;
+}
+
+.tarif_footer{
+    color: darkred;
+    font-size: 10px;
+    float: left;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
