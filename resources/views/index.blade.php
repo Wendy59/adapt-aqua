@@ -38,7 +38,7 @@
                   Licensing information: https://bootstrapmade.com/license/
                   Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
                 -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and developed by <a href=#>Adapt'Aqua</a>
             </div>
         </div>
     </footer><!-- #footer -->
