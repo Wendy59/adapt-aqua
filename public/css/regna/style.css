@@ -971,12 +971,6 @@ div#btn_calendar {
   position: relative;
 }
 
-#tarifs h3 {
-  font-weight: 400;
-  margin-bottom: 15px;
-  font-size: 28px;
-}
-
 #tarifs h4 {
   font-size: 46px;
   color: #45a89e;
@@ -1026,3 +1020,51 @@ div#btn_calendar {
     bottom: 0;
     margin-bottom: 5px;
 }
+
+
+
+
+/* Menu tarif Section
+--------------------------------*/
+
+.marb-35{
+    margin-bottom: 35px;
+}
+.menu-tarif{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+.menu-tarif .menu-title {
+    float: left;
+    font-family: Montserrat,arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #45a89e;
+}
+.menu-tarif .menu-line {
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotted rgba(0,0,0,.3);
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+.menu-tarif .menu-price {
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu-tarif .menu-subtitle {
+    display: block;
+    float: left;
+    color: #B1B1B1;
+    font-family: Satisfy,'Open Sans',arial;
+    font-size: 1.2rem;
+}
+.menu-tarif span.clearfix {
+    position: relative;
+    display: block;
+}
+
