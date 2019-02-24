@@ -4,7 +4,7 @@
             <h3 class="section-title">Tarifs avec engagement</h3>
         </div>
         <div class="row">   
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="box featured">
                     <h3>ADAPT 1 - 12 mois **</h3>
                     <h4>39<sup>€</sup><span> / mois</span></h4>
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="box featured">
                     <h3>ADAPT 2 - 12 mois **</h3>
                     <h4>60<sup>€</sup><span> / mois</span></h4>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="box featured">
                     <h3>ADAPT 3 - 12 mois</h3>
                     <h4>75<sup>€</sup><span> / mois</span></h4>
@@ -50,7 +50,7 @@
             </div>
         </div>    
         <div class="row">   
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="box featured">
                     <h3>ADAPT 1 - 6 mois **</h3>
                     <h4>45<sup>€</sup><span> / mois</span></h4>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="box featured">
                     <h3>ADAPT 2 - 6 mois **</h3>
                     <h4>70<sup>€</sup><span> / mois</span></h4>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="box featured">
                     <h3>ADAPT 3 - 6 mois</h3>
                     <h4>85<sup>€</sup><span> / mois</span></h4>
@@ -99,9 +99,9 @@
     
     <div class="container wow fadeIn">
         <div class="section-header marb-35">
-            <h3 class="section-title">Tarifs avec engagement</h3>
+            <h3 class="section-title">Tarifs sans engagement</h3>
         </div>
-        <div class="row">
+        <div class="row wow fadeInUp" data-wow-delay="0.8s">
             <div id="menu-wrapper">
                 <div class="cours_aqua menu-tarif">
                     <span class="clearfix">
