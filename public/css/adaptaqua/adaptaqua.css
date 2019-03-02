@@ -1,0 +1,20 @@
+
+#tarifs .adaptaqua{
+    border: 2px solid #B6D6D2;
+    height: 325px;
+    border-radius: 50%; 
+    background-color: #B6D6D2;
+    text-align: center;
+}
+
+#tarifs .adaptaqua h3 {
+    margin-top: 35px;
+}
+
+#tarifs .adaptaqua table {
+    width: 90%;
+}
+
+#tarifs .section-header {
+    padding-bottom: 20px;
+}
