@@ -72,9 +72,11 @@
   
     <!-- Personal script -->
     <script type="text/javascript">
-        $('.calling_modalCoursAqua').on('click', function(){$('#modalCoursAqua').modal('show')});
-        $('.calling_modalCoursCollectif').on('click', function(){$('#modalCoursCollectif').modal('show')});
-        $('.calling_modalHydromassage').on('click', function(){$('#modalHydromassage').modal('show')});
+        $('.calling_modalCoursAqua').on('click', function(){$('#modalCoursAqua').modal('show');});
+        $('.calling_modalCoursCollectif').on('click', function(){$('#modalCoursCollectif').modal('show');});
+        $('.calling_modalHydromassage').on('click', function(){$('#modalHydromassage').modal('show');});
+        $('.calling_modalEspaceDetente').on('click', function(){$('#modalEspaceDetente').modal('show');});
+        $('.calling_modalAquaphobie').on('click', function(){$('#modalAquaphobie').modal('show');});
         
         const scheduler_aquatique = [{
                 title: 'Aquatique',
