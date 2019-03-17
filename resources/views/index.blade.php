@@ -71,6 +71,11 @@
     <script src="js/fullcalendar/fr.js"></script>
   
     <!-- Personal script -->
+    <script>
+		$(document).ready(function () {
+		    $.ajaxSetup({headers: {'X-CSRF-TOKEN': "{{csrf_token()}}"}});
+		});
+    </script>
     <script type="text/javascript">
         $('.calling_modalCoursAqua').on('click', function(){$('#modalCoursAqua').modal('show');});
         $('.calling_modalCoursCollectif').on('click', function(){$('#modalCoursCollectif').modal('show');});
