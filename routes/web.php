@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::group(['prefix' => 'mail', 'namespace' => 'Mail'], function() {
+    Route::post('/send', 'MailController@sendEmailContact')->name('contact.send');
+});
