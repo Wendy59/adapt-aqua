@@ -23,6 +23,7 @@ Route::group(['prefix' => 'mail', 'namespace' => 'Mail'], function() {
  * Routes concernant l'authentification
  */
 Auth::routes();
+Route::get('/login', 'Auth\LoginController@index')->name('login');
 
 
 /**
