@@ -18,3 +18,15 @@ Route::get('/', function () {
 Route::group(['prefix' => 'mail', 'namespace' => 'Mail'], function() {
     Route::post('/send', 'MailController@sendEmailContact')->name('contact.send');
 });
+
+/**
+ * Routes concernant l'authentification
+ */
+Auth::routes();
+Route::get('/login', 'Auth\LoginController@index')->name('login');
+
+
+/**
+ * ADMINISTRATION
+ */
+Route::get('/administration', 'HomeController@index')->name('admin');
