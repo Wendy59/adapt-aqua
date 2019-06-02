@@ -2,7 +2,7 @@
 
     @include('layouts.header')
 
-    @include('accueil')
+    @include('accueil', ['datas'=> $home])
 
     <main id="main">
 
@@ -10,7 +10,7 @@
 
         @include('prestation')
         
-        @include('tarifs')
+        @include('tarifs', ['datas'=> $tarif])
         
         @include('horaires')
 

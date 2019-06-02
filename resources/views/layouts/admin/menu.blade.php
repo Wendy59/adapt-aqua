@@ -10,7 +10,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="" href="#">
+                    <a class="" href="{{route('admin.home')}}">
                         <i class="fa fa-home"></i>
                         <span>Accueil</span>
                     </a>
