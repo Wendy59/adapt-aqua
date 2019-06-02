@@ -22,7 +22,7 @@
                             </div>
                         </div>
                         <div class="panel-body">
-                            <section id="admin_home">
+                            <section id="admin_home" class="section_admin">
                                 <b><u><span>Titre</span></u></b> : <span id='admin_home_title'>{{$infos['title']}}</span></br></br>
                                 <b><u><span>Description</span></u></b> : <span id='admin_home_description'>{{$infos['description']}}</span></br></br>
                                 <b><u><span>Bouton de lancement</span></u></b> : <span id='admin_home_button'>{{$infos['button']}}</span></br></br>
