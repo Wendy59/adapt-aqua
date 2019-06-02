@@ -27,11 +27,16 @@
                         <span>Prestations</span>
                     </a>
                 </li>
-                <li>
-                    <a class="" href="#">
+                <li class="sub-menu">
+                    <a class="" href="javascript:;">
                         <i class="fa fa-euro"></i>
                         <span>Tarifs</span>
+                        <span class="menu-arrow  fa fa-chevron-down"></span>
                     </a>
+                    <ul class="sub">
+                        <li><a class="" href="#">Tarifs avec engagement</a></li>
+                        <li><a class="" href="#">Tarifs sans engagement</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a class="" href="#">
