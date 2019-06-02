@@ -36,4 +36,11 @@ Route::group(['prefix' => 'administration', 'namespace' => 'Admin'], function() 
         Route::get('/', 'HomeController@index')->name('admin.home');
         Route::post('/update', 'HomeController@update')->name('admin.home.update');
     });
+    /**
+     * CONTACT
+     */
+    Route::group(['prefix' => 'contact'], function() {
+        Route::get('/', 'ContactController@index')->name('admin.contact');
+        Route::post('/update', 'ContactController@update')->name('admin.contact.update');
+    });
 });

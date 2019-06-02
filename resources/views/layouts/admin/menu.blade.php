@@ -45,7 +45,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="" href="#">
+                    <a class="" href="{{route('admin.contact')}}">
                         <i class="fa fa-phone"></i>
                         <span>Contactez-nous</span>
                     </a>

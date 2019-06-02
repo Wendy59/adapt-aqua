@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Repositories\SiteRepository;
 use App\Repositories\HomeRepository;
+use App\Repositories\ContactRepository;
 
 class SiteController extends Controller
 {
@@ -37,6 +38,17 @@ class SiteController extends Controller
                 "description"   => $datas['home']['description'],
                 "button"        => $datas['home']['button'],
             ],
+            "contact" => [
+                "title"         => $datas['contact']['title'],
+                "description"   => $datas['contact']['description'],
+                "mail"          => $datas['contact']['mail'],
+                "facebook"      => $datas['contact']['facebook'],
+                "maps"          => $datas['contact']['maps'],
+                "adress1"       => $datas['contact']['adress1'],
+                "adress2"       => $datas['contact']['adress2'],
+                "adress3"       => $datas['contact']['adress3'],
+                "tel"           => $datas['contact']['tel'],
+            ],
         ]);
     }
     
@@ -56,6 +68,17 @@ class SiteController extends Controller
         $result['home']['description'] = $home_info->description;
         $result['home']['button'] = $home_info->button;
         
+        // Section contact
+        $contact_info = (new ContactRepository)->getInfos();
+        $result['contact']['title'] = $contact_info->title;
+        $result['contact']['description'] = $contact_info->description;
+        $result['contact']['mail'] = $contact_info->mail;
+        $result['contact']['facebook'] = $contact_info->facebook;
+        $result['contact']['maps'] = $contact_info->maps;
+        $result['contact']['adress1'] = $contact_info->adress1;
+        $result['contact']['adress2'] = $contact_info->adress2;
+        $result['contact']['adress3'] = $contact_info->adress3;
+        $result['contact']['tel'] = $contact_info->tel;
         
         return $result;
     }

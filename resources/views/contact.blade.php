@@ -1,13 +1,13 @@
 <section id="contact">
     <div class="container wow fadeInUp">
         <div class="section-header">
-            <h3 class="section-title">Contact</h3>
-            <p class="section-description">Vous souhaitez nous contacter, voici nos coordonnées.</p>
+            <h3 class="section-title">{{$datas['title']}}</h3>
+            <p class="section-description">{{$datas['description']}}</p>
         </div>
     </div>
 
     <!-- Google Maps -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.9630870623455!2d2.4317867156550212!3d51.05376937956315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc8deeea451ffd%3A0xc845b72b839bc6d4!2sAdapt&#39;aqua!5e0!3m2!1sfr!2sfr!4v1546360437125" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="{!!$datas['maps']!!}" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
     
     <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">
@@ -17,12 +17,16 @@
                 <div class="info">
                     <div>
                       <i class="fa fa-map-marker"></i>
-                      <p>99 Boulevard Jean-Baptiste Trystram<br>59495 Leffrinckoucke</p>
+                      <p>
+                          {{$datas['adress1']}}<br>
+                          {{$datas['adress2']}}<br>
+                          {{$datas['adress3']}}
+                      </p>
                     </div>
                     
                     <div>
                       <i class="fa fa-phone"></i>
-                      <p>06 42 63 20 03</p>
+                      <p>{{$datas['tel']}}</p>
                     </div>
                 </div>
             </div>
@@ -33,14 +37,14 @@
                       <i class="fa fa-envelope"></i>
                       <!--<p>adaptaqua3@gmail.com</p>-->
                         <p>
-                            <a href="mailto:adaptaqua3@gmail.com?Subject=Contact" target="_top">
-                                adaptaqua3@gmail.com
+                            <a href="mailto:{{$datas['mail']}}?Subject=Contact" target="_top">
+                                {{$datas['mail']}}
                             </a>
                         </p>
                     </div>
                     
                     <div>
-                        <a href="https://www.facebook.com/adaptaqua/" class="btn-facebook">
+                        <a href="{{$datas['facebook']}}" class="btn-facebook">
                             <i class="fab fa-facebook-square"></i>
                             <p>Notre Facebook</p>
                         </a>
