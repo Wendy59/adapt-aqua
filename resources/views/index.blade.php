@@ -14,7 +14,7 @@
         
         @include('horaires')
 
-        @include('contact')
+        @include('contact', ['datas'=> $contact])
       </main>
 
     <!--==========================
