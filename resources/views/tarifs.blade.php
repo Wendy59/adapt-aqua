@@ -1,7 +1,7 @@
 <section id="tarifs">
     <div class="container wow fadeIn">
         <div class="section-header">
-            <h3 class="section-title">Tarifs avec engagement</h3>
+            <h3 class="section-title">{{$datas['title1']}}</h3>
         </div>
         <div class="row">   
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -96,7 +96,7 @@
     
     <div class="container wow fadeIn">
         <div class="section-header">
-            <h3 class="section-title">Tarifs sans engagement</h3>
+            <h3 class="section-title">{{$datas['title2']}}</h3>
         </div>
         <div class="row">   
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">

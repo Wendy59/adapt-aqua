@@ -4,7 +4,7 @@
             <h3 class="section-title">Horaires et réservation </h3>
         </div>
         <div class="row wow fadeInUp" data-wow-delay="0.3s" style='margin-top:20px;'>
-            <p style="margin: 0;">N'hésitez pas à nous contactez pour une réservation!</p>
+            <p style="margin: 0;">N'hésitez pas à nous contacter pour une réservation!</p>
         </div>
         <div class="row wow fadeInUp" data-wow-delay="0.6s">
             <div id="btn_calendar">

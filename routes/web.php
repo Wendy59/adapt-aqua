@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/','SiteController@show');
 
 Route::group(['prefix' => 'mail', 'namespace' => 'Mail'], function() {
     Route::post('/send', 'MailController@sendEmailContact')->name('contact.send');
@@ -29,4 +27,13 @@ Route::get('/login', 'Auth\LoginController@index')->name('login');
 /**
  * ADMINISTRATION
  */
-Route::get('/administration', 'HomeController@index')->name('admin');
+Route::get('/administration', 'HomeController@index')->name('admin.home');
+Route::group(['prefix' => 'administration', 'namespace' => 'Admin'], function() {
+    /**
+     * HOME
+     */
+    Route::group(['prefix' => 'home'], function() {
+        Route::get('/', 'HomeController@index')->name('admin.home');
+        Route::post('/update', 'HomeController@update')->name('admin.home.update');
+    });
+});
